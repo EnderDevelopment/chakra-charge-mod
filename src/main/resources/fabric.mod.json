@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "chakrachargemod",
+  "version": "1.0.0",
+  "name": "Chakra Charge Mod",
+  "description": "A mod that adds a custom item called Chakra Charge.",
+  "authors": ["ibiaasif216"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ibiaasif216.chakrachargemod.ChakraChargeMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
